@@ -5,7 +5,10 @@ on:
   push:                   
     branches:
       - master  
-    
+
+env:
+  ACTIONS_STEP_DEBUG: true
+  
 jobs:
   build:
     runs-on: ubuntu-20.04
