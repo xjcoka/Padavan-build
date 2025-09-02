@@ -3,8 +3,7 @@ name: Build Padavan JDC
 
 on: 
   release:
-    types: [published]
-
+    
 jobs:
   build:
     runs-on: ubuntu-20.04
