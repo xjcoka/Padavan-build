@@ -7,12 +7,6 @@ on:
   push:
     tags:
     - 'v*'
-    branches: 
-      - master
-  schedule:
-    - cron: 0 * * * *
-  watch:
-    types: [started]
 
 jobs:
   build:
